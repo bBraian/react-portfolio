@@ -6,7 +6,7 @@ function Header() {
     return (
       <C.Container>
         <C.Image>
-          <img src={fotoPerfil} style={{width: '100%', height: '100%'}} />
+          <img src={fotoPerfil} alt="Perfil" style={{width: '100%', height: '100%'}} />
         </C.Image>
         <C.Name>Braian Viacava de Ávila</C.Name> 
         <C.Button><FcSettings  size={{size: '1'}} /></C.Button>

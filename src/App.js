@@ -8,7 +8,6 @@ function App() {
     <C.Container>
       <Header />
       <Body />
-      /* FOOTER */
     </C.Container>
   );
 }
