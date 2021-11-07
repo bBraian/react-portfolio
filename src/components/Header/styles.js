@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import backgroundImage from '../../images/background.jpg';
+import '../../App.css';
 
 export const Container = styled.div`
     width: 100%vw;
@@ -36,7 +37,7 @@ export const Image = styled.div`
 export const Name = styled.span`
     color: white;
     font-size: 35px;
-    font-family: cursive;
+    font-family: 'Roboto', sans-serif;
     margin: 0 25px;
     font-weight: bold;
     

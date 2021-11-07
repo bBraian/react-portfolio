@@ -1,4 +1,5 @@
 import * as C from './styles';
+import Project from '../Project';
 
 function Body() {
     return(
@@ -12,10 +13,13 @@ function Body() {
             </C.TextAbout>
             <C.Title>Projetos</C.Title>
             <C.ContainerProjects>
-                <C.Project></C.Project>
-                <C.Project></C.Project>
-                <C.Project></C.Project>
-                <C.Project></C.Project>
+                <Project></Project>
+                <Project></Project>
+                <Project></Project>
+                <Project></Project>
+                <Project></Project>
+                <Project></Project>
+                <Project></Project>
             </C.ContainerProjects>
         </C.Container>
     );
