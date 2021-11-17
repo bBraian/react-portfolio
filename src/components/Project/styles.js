@@ -23,35 +23,3 @@ export const Img = styled.div`
     background-size: auto;
     border-radius: 15px 15px 0 0;
 `;
-
-export const Description = styled.div`
-    margin-top: -25%;
-    padding: 0 10px;
-    display flex;
-    flex-direction: column;
-
-    @media(max-width: 1024px) {
-        margin-top: -25%;
-    }
-
-    @media(max-width: 780px) {
-        margin-top: -50%;
-    }
-`;
-
-export const ProjectTitle = styled.h2`
-    text-align: center;
-    justify-content: center;
-`;
-
-export const About = styled.span`
-`;
-
-export const Visit = styled.span`
-    align-self: flex-end;
-    cursor: pointer;
-    transition: 0.3s;
-    :hover {
-        margin-right: 9px;
-    }
-`;
