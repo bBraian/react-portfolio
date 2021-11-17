@@ -5,7 +5,7 @@ export const Project = styled.div`
     height: 250px;
     border: 1px solid black;
     border-radius: 15px;
-    margin: 20px;
+    margin: 20px 5px;
 
     @media(max-width: 1024px) {
         width: 47%;
