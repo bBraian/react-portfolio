@@ -1,11 +1,10 @@
 import styled from "styled-components";
-import backgroundImage from '../../images/background.jpg';
 import '../../App.css';
 
 export const Container = styled.div`
     width: 100%vw;
     height: 148px;
-    background-image: url(${backgroundImage});
+    background-image: url(${props => props.theme.colors.background_img});
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -23,9 +22,9 @@ export const Container = styled.div`
 export const Image = styled.div`
     max-width: 90px;
     max-height: 90px;
-    border: 2px solid chartreuse;
+    border: 2px solid ${props => props.theme.colors.secundary};
     border-radius: 5px;
-    background-color: white;
+    background-color: ${props => props.theme.colors.background};
     box-sizing: border-box;
 
     @media(max-width: 800px) {
@@ -35,11 +34,11 @@ export const Image = styled.div`
 `;
 
 export const Name = styled.span`
-    color: white;
-    font-size: 35px;
+    color: ${props => props.theme.colors.text};
+    font-size: 45px;
     font-family: 'Roboto', sans-serif;
     margin: 0 25px;
-    font-weight: bold;
+    font-weight: 900;
     
 
     @media(max-width: 800px) {

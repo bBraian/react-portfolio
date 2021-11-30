@@ -1,12 +1,15 @@
+import background from '../../images/black.png';
+
 const dark =  {
     title: 'dark',
 
     colors: {
-        primary: '#B5F8FE',
-        secundary: '#10ffcb',
+        primary: '#0A0A0B',
+        secundary: '#8357E5',
 
         background: '#222',
-        text: '#fff'
+        text: '#fff',
+        background_img: background
     }
 }
 

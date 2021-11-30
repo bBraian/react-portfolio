@@ -3,9 +3,10 @@ import styled from "styled-components";
 export const Project = styled.div`
     width: 30%;
     height: 250px;
-    border: 1px solid black;
+    border: 1px solid ${props => props.theme.colors.secundary};
     border-radius: 15px;
     margin: 20px;
+    background-color: ${props => props.theme.colors.primary};
 
     @media(max-width: 1024px) {
         width: 47%;
