@@ -14,7 +14,7 @@ export const Container = styled.div`
     text-align: center;
     
     @media(max-width: 800px) {
-        padding: 0 22px;
+        padding: 0 42px 0 22px;
     }
 
 `;
