@@ -9,7 +9,8 @@ const dark =  {
 
         background: '#222',
         text: '#fff',
-        background_img: background
+        background_img: background,
+        shaddow: '#0e0e0e'
     }
 }
 
