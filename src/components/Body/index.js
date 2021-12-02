@@ -24,7 +24,7 @@ function Body() {
             <p style={{margin: '0 0 10px'}}>I have about than two years of work experience in full-stack development and have a firm knowledge of HTML, CSS and JavaScript language and possess a good knowledge of computer software packages (frameworks and tools) that are used in today’s technology.
 </p>
 <p style={{margin: '0 0 10px'}}>
-On a personal level, I am highly-motivated, result oriented, self-driven, hard-working, fast learner and constantly seeking to improve my skills .
+On a personal level, I am highly-motivated, result oriented, self-driven, hard-working, fast learner and constantly seeking to improve my skills.
 </p>
 <p style={{margin: '0 0 10px'}}>
 In addition to this, I have the ability to adapt to any type of team environment, I am team oriented and get along with others when working in a group setting. I also have the ability to work independently while staying on schedule and meeting those tight deadlines.
