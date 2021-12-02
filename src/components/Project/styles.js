@@ -26,11 +26,13 @@ export const Project = styled.div`
     }
 `;
 
-export const Img = styled.div`
-    height: 50%;
+export const Container = styled.div`
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: auto;
-    border-radius: 15px 15px 0 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 25px;
 `;
 

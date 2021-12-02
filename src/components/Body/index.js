@@ -13,6 +13,7 @@ import php from '../../images/linguagens/php.png';
 import react from '../../images/linguagens/react.png';
 import scriptcase from '../../images/linguagens/scriptcase.png';
 import trello from '../../images/linguagens/trello.png';
+import davinciresolve from '../../images/linguagens/davinciresolve.png';
 
 function Body() {
     return(
@@ -72,6 +73,9 @@ Below is a list of my current technical skills:
                     <C.Tecnology>
                         <img src={corel} title="corel" alt="corel" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
                     </C.Tecnology>
+                    <C.Tecnology>
+                        <img src={davinciresolve} title="davinciresolve" alt="davinciresolve" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                    </C.Tecnology>
                 
             </C.Tecnologies>
         </C.AboutMe>
@@ -79,13 +83,12 @@ Below is a list of my current technical skills:
 
             <C.Title>Projects</C.Title>
             <C.ContainerProjects>
-                <Project></Project>
-                <Project></Project>
-                <Project></Project>
-                <Project></Project>
-                <Project></Project>
-                <Project></Project>
-                <Project></Project>
+                <Project title="ReactFlix" description="A project made with react typescript using styled-components" see="see"></Project>
+                <Project title="ReactPortfolio" description="A project made with react using styled-components, switcher and a lot of others tecnologies" see="see"></Project>
+                <Project title="Todo list" description="Todo is an react-app made with typescript. Is the convencional list of things to do. You can create, and mark as done" see="see"></Project>
+                <Project title="react-finances" description="This project was made in React during a challenge called '5 Projetos em 5 Dias' by B7Web." see="see"></Project>
+                <Project title="Digital-menu" description="This is a project of a digital menu made whith php whitout framework" see="see"></Project>
+                <Project title="Snake97" description="Is a project of the famous and known snake game inspired by the old model made in javascript." see="see"></Project>
             </C.ContainerProjects>
         </C.Container>
     );
