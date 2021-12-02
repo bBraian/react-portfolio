@@ -34,43 +34,43 @@ Below is a list of my current technical skills:
             <C.Tecnologies>
                 
                     <C.Tecnology>
-                        <img src={html} title="html" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        <img src={html} title="html" alt="html" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
                     </C.Tecnology>
                     <C.Tecnology>
-                        <img src={css} title="css" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        <img src={css} title="css" alt="css" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
                     </C.Tecnology>
                     <C.Tecnology>
-                        <img src={js} title="js" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        <img src={js} title="js" alt="js" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
                     </C.Tecnology>
                     <C.Tecnology>
-                        <img src={git} title="git" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        <img src={git} title="git" alt="git" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
                     </C.Tecnology>
                     <C.Tecnology>
-                        <img src={php} title="php" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        <img src={php} title="php" alt="php" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
                     </C.Tecnology>
                     <C.Tecnology>
-                        <img src={mysql} title="mysql" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        <img src={mysql} title="mysql" alt="mysql" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
                     </C.Tecnology>
                     <C.Tecnology>
-                        <img src={trello} title="trello" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        <img src={trello} title="trello" alt="trello" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
                     </C.Tecnology>
                     <C.Tecnology>
-                        <img src={java} title="java" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        <img src={java} title="java" alt="java" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
                     </C.Tecnology>
                     <C.Tecnology>
-                        <img src={bootstrap} title="bootstrap" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        <img src={bootstrap} title="bootstrap" alt="bootstrap" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
                     </C.Tecnology>
                     <C.Tecnology>
-                        <img src={react} title="react" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        <img src={react} title="react" alt="react" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
                     </C.Tecnology>
                     <C.Tecnology>
-                        <img src={laravel} title="laravel" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        <img src={laravel} title="laravel" alt="laravel" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
                     </C.Tecnology>
                     <C.Tecnology>
-                        <img src={scriptcase} title="scriptcase" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        <img src={scriptcase} title="scriptcase" alt="scriptcase" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
                     </C.Tecnology>
                     <C.Tecnology>
-                        <img src={corel} title="corel" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        <img src={corel} title="corel" alt="corel" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
                     </C.Tecnology>
                 
             </C.Tecnologies>
