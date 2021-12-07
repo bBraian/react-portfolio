@@ -83,12 +83,12 @@ Below is a list of my current technical skills:
 
             <C.Title>Projects</C.Title>
             <C.ContainerProjects>
-                <Project title="ReactFlix" description="A project made with react typescript using styled-components" see="see"></Project>
-                <Project title="ReactPortfolio" description="A project made with react using styled-components, switcher and a lot of others tecnologies" see="see"></Project>
-                <Project title="Todo list" description="Todo is an react-app made with typescript. Is the convencional list of things to do. You can create, and mark as done" see="see"></Project>
-                <Project title="react-finances" description="This project was made in React during a challenge called '5 Projetos em 5 Dias' by B7Web." see="see"></Project>
-                <Project title="Digital-menu" description="This is a project of a digital menu made whith php whitout framework" see="see"></Project>
-                <Project title="Snake97" description="Is a project of the famous and known snake game inspired by the old model made in javascript." see="see"></Project>
+                <Project title="ReactFlix" description="A project made with react typescript using styled-components" link="https://react-flix-rho.vercel.app/"></Project>
+                <Project title="Old Portfolio" description="That's my old portfolio made only with javascript, html and css" link="https://braiann.vercel.app/"></Project>
+                <Project title="Todo list" description="Todo is an react-app made with typescript. Is the convencional list of things to do. You can create, and mark as done" link="https://todo-react-list.vercel.app/"></Project>
+                <Project title="react-finances" description="This project was made in React during a challenge called '5 Projetos em 5 Dias' by B7Web." link="https://react-finances.vercel.app/"></Project>
+                <Project title="Digital-menu" description="This is a project of a digital menu made whith php whitout framework" link="https://bcode.space/"></Project>
+                <Project title="Snake97" description="Is a project of the famous and known snake game inspired by the old model made in javascript." link="https://snake97.vercel.app/"></Project>
             </C.ContainerProjects>
         </C.Container>
     );

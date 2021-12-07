@@ -1,14 +1,13 @@
 import * as C from './styles';
 
-function Project({title, description, see}) {
-  
+function Project({title, description, link}) {
+
     return( 
       <C.Project>
           <C.Container>
               <h1>{title}</h1>
               <div>{description}</div>
-              <C.See>{see}</C.See>
-              
+              <C.See><a href={link} target="_blank" style={{textDecoration: 'none'}}>See</a></C.See>
           </C.Container>
       </C.Project>
     );

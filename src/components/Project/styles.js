@@ -44,5 +44,7 @@ export const See = styled.div`
     &:hover{
         cursor: pointer;
     }
+    color: ${props => props.theme.colors.text}
+
 `;
 
