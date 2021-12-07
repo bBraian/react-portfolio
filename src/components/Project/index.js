@@ -7,7 +7,7 @@ function Project({title, description, link}) {
           <C.Container>
               <h1>{title}</h1>
               <div>{description}</div>
-              <C.See><a href={link} target="_blank" style={{textDecoration: 'none'}}>See</a></C.See>
+              <C.See><a href={link} target="_blank" rel="nofollow" style={{textDecoration: 'none'}}>See</a></C.See>
           </C.Container>
       </C.Project>
     );
