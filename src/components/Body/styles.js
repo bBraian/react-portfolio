@@ -58,4 +58,10 @@ export const Tecnology = styled.div`
     width: 50px;
     height: 50px;
     margin: 8px;
+    transition: all ease 0.5s;
+    &:hover {
+        transition: all ease 0.5s;
+        transform: scale(1.2);
+        margin-top: -10px;
+    }
 `;

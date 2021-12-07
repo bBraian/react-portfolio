@@ -23,6 +23,10 @@ export const Project = styled.div`
 
     &:hover{
         transform: scale(1);
+        h1{
+            text-decoration: underline ${props => props.theme.colors.secundary};
+            transition: all ease 0.5s;
+        }
     }
 `;
 
@@ -34,5 +38,11 @@ export const Container = styled.div`
     justify-content: space-around;
     align-items: center;
     padding: 0 25px;
+`;
+
+export const See = styled.div`
+    &:hover{
+        cursor: pointer;
+    }
 `;
 
