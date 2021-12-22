@@ -14,71 +14,80 @@ import react from '../../images/linguagens/react.png';
 import scriptcase from '../../images/linguagens/scriptcase.png';
 import trello from '../../images/linguagens/trello.png';
 import davinciresolve from '../../images/linguagens/davinciresolve.png';
+import { useState } from 'react';
+import Modal from '../Modal';
 
 function Body() {
+    const [modalVisible, setModalVisible] = useState(true);
+
     return(
         <C.Container>
 
-        <C.AboutMe>
-            <C.Title>About<C.Tcolor> Me</C.Tcolor></C.Title>
-            <C.TextAbout>
-            <p style={{margin: '0 0 10px'}}>I have about than two years of work experience in full-stack development and have a firm knowledge of HTML, CSS and JavaScript language and possess a good knowledge of computer software packages (frameworks and tools) that are used in today’s technology.
-</p>
-<p style={{margin: '0 0 10px'}}>
-On a personal level, I am highly-motivated, result oriented, self-driven, hard-working, fast learner and constantly seeking to improve my skills.
-</p>
-<p style={{margin: '0 0 10px'}}>
-In addition to this, I have the ability to adapt to any type of team environment, I am team oriented and get along with others when working in a group setting. I also have the ability to work independently while staying on schedule and meeting those tight deadlines.
-</p>
-Below is a list of my current technical skills:
-            </C.TextAbout>
-            <C.Tecnologies>
-                
-                    <C.Tecnology>
-                        <img src={html} title="html" alt="html" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                    </C.Tecnology>
-                    <C.Tecnology>
-                        <img src={css} title="css" alt="css" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                    </C.Tecnology>
-                    <C.Tecnology>
-                        <img src={js} title="js" alt="js" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                    </C.Tecnology>
-                    <C.Tecnology>
-                        <img src={git} title="git" alt="git" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                    </C.Tecnology>
-                    <C.Tecnology>
-                        <img src={php} title="php" alt="php" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                    </C.Tecnology>
-                    <C.Tecnology>
-                        <img src={mysql} title="mysql" alt="mysql" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                    </C.Tecnology>
-                    <C.Tecnology>
-                        <img src={trello} title="trello" alt="trello" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                    </C.Tecnology>
-                    <C.Tecnology>
-                        <img src={java} title="java" alt="java" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                    </C.Tecnology>
-                    <C.Tecnology>
-                        <img src={bootstrap} title="bootstrap" alt="bootstrap" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                    </C.Tecnology>
-                    <C.Tecnology>
-                        <img src={react} title="react" alt="react" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                    </C.Tecnology>
-                    <C.Tecnology>
-                        <img src={laravel} title="laravel" alt="laravel" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                    </C.Tecnology>
-                    <C.Tecnology>
-                        <img src={scriptcase} title="scriptcase" alt="scriptcase" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                    </C.Tecnology>
-                    <C.Tecnology>
-                        <img src={corel} title="corel" alt="corel" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                    </C.Tecnology>
-                    <C.Tecnology>
-                        <img src={davinciresolve} title="davinciresolve" alt="davinciresolve" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                    </C.Tecnology>
-                
-            </C.Tecnologies>
-        </C.AboutMe>
+            { modalVisible ? <Modal onClose={ () => setModalVisible(false) } /> : null }
+
+            <C.AboutMe>
+                <C.Title>About<C.Tcolor> Me</C.Tcolor></C.Title>
+                <C.TextAbout>
+                <p style={{margin: '0 0 10px'}}>I have about than two years of work experience in full-stack development and have a firm knowledge of HTML, CSS and JavaScript language and possess a good knowledge of computer software packages (frameworks and tools) that are used in today’s technology.
+                </p>
+                <p style={{margin: '0 0 10px'}}>
+                On a personal level, I am highly-motivated, result oriented, self-driven, hard-working, fast learner and constantly seeking to improve my skills.
+                </p>
+                <p style={{margin: '0 0 10px'}}>
+                In addition to this, I have the ability to adapt to any type of team environment, I am team oriented and get along with others when working in a group setting. I also have the ability to work independently while staying on schedule and meeting those tight deadlines.
+                </p>
+                <p style={{margin: '0 0 10px'}}>
+                If you want to know more about my work expirience,<span style={{cursor: 'pointer'}} onClick={() => setModalVisible(true)}> click here.</span> 
+                </p>
+                Below is a list of my current technical skills:
+                </C.TextAbout>
+                <C.Tecnologies>
+                    
+                        <C.Tecnology>
+                            <img src={html} title="html" alt="html" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        </C.Tecnology>
+                        <C.Tecnology>
+                            <img src={css} title="css" alt="css" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        </C.Tecnology>
+                        <C.Tecnology>
+                            <img src={js} title="js" alt="js" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        </C.Tecnology>
+                        <C.Tecnology>
+                            <img src={git} title="git" alt="git" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        </C.Tecnology>
+                        <C.Tecnology>
+                            <img src={php} title="php" alt="php" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        </C.Tecnology>
+                        <C.Tecnology>
+                            <img src={mysql} title="mysql" alt="mysql" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        </C.Tecnology>
+                        <C.Tecnology>
+                            <img src={trello} title="trello" alt="trello" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        </C.Tecnology>
+                        <C.Tecnology>
+                            <img src={java} title="java" alt="java" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        </C.Tecnology>
+                        <C.Tecnology>
+                            <img src={bootstrap} title="bootstrap" alt="bootstrap" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        </C.Tecnology>
+                        <C.Tecnology>
+                            <img src={react} title="react" alt="react" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        </C.Tecnology>
+                        <C.Tecnology>
+                            <img src={laravel} title="laravel" alt="laravel" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        </C.Tecnology>
+                        <C.Tecnology>
+                            <img src={scriptcase} title="scriptcase" alt="scriptcase" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        </C.Tecnology>
+                        <C.Tecnology>
+                            <img src={corel} title="corel" alt="corel" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        </C.Tecnology>
+                        <C.Tecnology>
+                            <img src={davinciresolve} title="davinciresolve" alt="davinciresolve" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                        </C.Tecnology>
+                    
+                </C.Tecnologies>
+            </C.AboutMe>
             
 
             <C.Title>Projects</C.Title>

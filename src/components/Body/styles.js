@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     padding: 28px 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `;
 
 export const TextAbout = styled.span`
@@ -65,3 +68,4 @@ export const Tecnology = styled.div`
         margin-top: -10px;
     }
 `;
+
