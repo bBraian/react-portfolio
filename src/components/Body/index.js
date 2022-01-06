@@ -18,7 +18,7 @@ import { useState } from 'react';
 import Modal from '../Modal';
 
 function Body() {
-    const [modalVisible, setModalVisible] = useState(true);
+    const [modalVisible, setModalVisible] = useState(false);
 
     return(
         <C.Container>
