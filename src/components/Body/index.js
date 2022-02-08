@@ -98,6 +98,7 @@ function Body() {
                 <Project title="react-finances" description="This project was made in React during a challenge called '5 Projetos em 5 Dias' by B7Web." link="https://react-finances.vercel.app/"></Project>
                 <Project title="Digital-menu" description="This is a project of a digital menu made whith php whitout framework" link="https://bcode.space/"></Project>
                 <Project title="Snake97" description="Is a project of the famous and known snake game inspired by the old model made in javascript." link="https://snake97.vercel.app/"></Project>
+                <Project title="IMC App" description="This is a project of a IMC calculator made with react-native" link="https://play.google.com/store/apps/details?id=com.calculadora.IMC"></Project>
             </C.ContainerProjects>
         </C.Container>
     );
