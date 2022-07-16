@@ -7,6 +7,7 @@ export const Modal = styled.div`
     top: 25%;
     border-radius: 15px;
     width: 80%;
+    max-height: 75vh;
     max-width: 900px;
     padding: 60px 95px;
     text-align: center;
@@ -14,9 +15,11 @@ export const Modal = styled.div`
     background-color: ${props => props.theme.colors.primary};
     display: ${props => props.display};
     @media(max-width: 800px) {
-        padding: 30px 45px;
+        padding: 30px 25px;
         width: 80%;
-        top: 25%;
+        top: 10%;
+        max-height: 70vh;
+        overflow: scroll;
     }
 `
 
