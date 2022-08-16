@@ -52,7 +52,10 @@ export const Tecnology = styled.div`
     width: 38px; 
     height: 38px;
     border: 1px solid ${props => props.theme.colors.secundary}; 
-    margin: 0 5px; 
+    margin: 0 4px; 
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `;
 

@@ -15,7 +15,7 @@ function Project({title, description, link, languages}) {
                     {languages.map(tec => {
                         return (
                             <C.Tecnology>
-                                {  tec.name }
+                                <img src={tec.icon} alt={tec.name} style={{width: 'auto', height: 'auto', maxWidth: '26px', maxHeight: '26px'}}></img>
                             </C.Tecnology>
                         );
                     })}
