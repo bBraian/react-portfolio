@@ -45,6 +45,14 @@ export const See = styled.div`
         cursor: pointer;
     }
     color: ${props => props.theme.colors.text}
+`;
 
+export const Tecnology = styled.div`
+    color: white;
+    width: 38px; 
+    height: 38px;
+    border: 1px solid ${props => props.theme.colors.secundary}; 
+    margin: 0 5px; 
+    border-radius: 8px;
 `;
 
