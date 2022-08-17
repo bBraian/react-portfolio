@@ -16,4 +16,9 @@ export const projects = [
             {id: 4, name: 'MySQL', icon: mysql}
         ]
     },
+    {id: 3, title: 'Unisinos Groups', description: 'This project is basically a list to store the whatsapp groups of the classes from college', image: '', link: '', 
+        tecnologies: [
+            {id: 3, name: 'ReactJS', icon: react}
+        ]
+    },
 ];

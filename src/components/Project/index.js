@@ -12,7 +12,7 @@ function Project({title, description, link, languages}) {
             <C.Container>
                 <h1>{title}</h1>
                 <div style={{margin: '15px 0'}}>{description}</div>
-                <div style={{width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center',flexDirection: 'column', marginBottom: '15px'}}>
+                <div style={{width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center',flexDirection: 'column', marginBottom: '12px'}}>
                     <span style={{marginBottom: '12px'}}>Technologies used in this project</span>
                     <div style={{display: 'flex', flexDirection: 'row'}}>
                         {languages.map(tec => {

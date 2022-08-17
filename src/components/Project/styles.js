@@ -30,7 +30,7 @@ export const Project = styled.div`
 `;
 
 export const Container = styled.div`
-    width: 100%;
+    width: auto;
     height: auto;
     border-radius: 0 0 15px 15px;
     position: relative;
@@ -38,6 +38,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     padding: 15px 25px;
 `;
 
