@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Project = styled.div`
     width: 30%;
+    max-width: 470px;
     height: auto;
     border: 1px solid ${props => props.theme.colors.secundary};
     border-radius: 15px;
