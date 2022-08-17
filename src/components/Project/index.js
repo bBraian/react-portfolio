@@ -7,7 +7,7 @@ function Project({title, description, link, languages}) {
     return( 
         <C.Project>
             <div style={{width: '100%', height: '125px', borderRadius: '15px 15px 0 0', overflow: 'hidden', display: 'flex', justifyContent: 'center'}}>
-                <img src={bg} alt="123" style={{width: 'auto', height: 'auto', maxWidth: '100%', maxHeight: '100%'}}></img>
+                <img src={bg} alt="123" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto', objectFit: 'cover'}}></img>
             </div>
             <C.Container>
                 <h1>{title}</h1>
