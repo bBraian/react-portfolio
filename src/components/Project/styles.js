@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Project = styled.div`
     width: 30%;
-    min-height: 320px;
+    height: auto;
     border: 1px solid ${props => props.theme.colors.secundary};
     border-radius: 15px;
     margin: 20px;
@@ -18,7 +18,6 @@ export const Project = styled.div`
     @media(max-width: 780px) {
         width: 100%;
         margin: 20px 0px;
-        max-height: 230px;
     }
 
     &:hover{
@@ -32,12 +31,14 @@ export const Project = styled.div`
 
 export const Container = styled.div`
     width: 100%;
-    height: 100%;
+    height: auto;
+    border-radius: 0 0 15px 15px;
+    position: relative;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
-    padding: 0 25px;
+    padding: 15px 25px;
 `;
 
 export const See = styled.div`
@@ -57,5 +58,9 @@ export const Tecnology = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all ease-in-out 0.2s;
+    &:hover {
+        transform: scale(1.1);
+    }
 `;
 
