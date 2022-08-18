@@ -2,7 +2,6 @@ import react from '../images/linguagens/react.png';
 import php from '../images/linguagens/php.png';
 import mysql from '../images/linguagens/mysql.png';
 import javascript from '../images/linguagens/js.png';
-import bg from '../images/projectBg/bg.png';
 import unisinos from '../images/projectBg/unisinos-grupos.png';
 import reactflix from '../images/projectBg/reactflix.png';
 import imc from '../images/projectBg/imc.png';
