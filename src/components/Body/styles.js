@@ -9,17 +9,19 @@ export const Container = styled.div`
 
 export const TextAbout = styled.span`
     text-align: justify;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
 `;
 
-export const Title = styled.h1`
+export const Title = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 50px;
     text-align: center;
     margin: 18px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
 
     @media(max-width: 800px) {
         margin: 20px
@@ -29,20 +31,22 @@ export const Title = styled.h1`
 export const ContainerProjects = styled.div`
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 `;
 
 export const AboutMe = styled.div`
-    margin: 32px 20px 80px 20px;
+    margin: 32px 20px 60px 20px;
     @media(max-width: 800px) {
-        margin: 32px 20px 45px 20px;
+        margin: 0px 20px 25px 20px;
     }
 `;
 
-export const Tcolor = styled.h1`
+export const Tcolor = styled.div`
     color: ${props => props.theme.colors.secundary};
     font-size: 50px;
     text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
 `;
 
 export const Tecnologies = styled.div`
@@ -67,5 +71,20 @@ export const Tecnology = styled.div`
         transform: scale(1.2);
         margin-top: -10px;
     }
+`;
+
+export const Paragraph = styled.p `
+    margin: 0 0 10px;
+`;
+
+export const TextClickable = styled.span`
+    cursor: pointer;
+`;
+
+export const TecnologyIcon = styled.img`
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
 `;
 

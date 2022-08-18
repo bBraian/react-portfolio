@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     display: flex;
+    font-family: 'Rajdhani', sans-serif;;
+    font-size: 16px;
     align-items: center;
     justify-content: center;
     text-align: center;

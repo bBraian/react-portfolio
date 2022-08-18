@@ -1,27 +1,21 @@
 import * as C from './styles';
 import Project from '../Project';
-import bootstrap from '../../images/linguagens/bootstrap.png';
-import corel from '../../images/linguagens/corel.png';
-import css from '../../images/linguagens/css.png';
-import git from '../../images/linguagens/git.png';
-import html from '../../images/linguagens/html.png';
-import java from '../../images/linguagens/java.png';
-import js from '../../images/linguagens/js.png';
-import laravel from '../../images/linguagens/laravel.png';
-import mysql from '../../images/linguagens/mysql.png';
-import php from '../../images/linguagens/php.png';
-import react from '../../images/linguagens/react.png';
-import scriptcase from '../../images/linguagens/scriptcase.png';
-import trello from '../../images/linguagens/trello.png';
-import davinciresolve from '../../images/linguagens/davinciresolve.png';
-import { useState } from 'react';
+
+import { useState, useEffect } from 'react';
 import Modal from '../Modal';
 
 import { projects } from '../../data/projects';
+import { skills } from '../../data/skills';
 
 function Body() {
     const [modalVisible, setModalVisible] = useState(false);
-    const [projectList, setProjectList] = useState(projects)
+    const [projectList, setProjectList] = useState([]);
+    const [skillsList, setSkillsList] = useState([]);
+
+    useEffect(() => {
+        setProjectList(projects);
+        setSkillsList(skills);
+    }, [])
 
     return(
         <C.Container>
@@ -31,64 +25,21 @@ function Body() {
             <C.AboutMe>
                 <C.Title>About<C.Tcolor> Me</C.Tcolor></C.Title>
                 <C.TextAbout>
-                <p style={{margin: '0 0 10px'}}>I have about than two years of work experience in full-stack development and have a firm knowledge of HTML, CSS and JavaScript language and possess a good knowledge of computer software packages (frameworks and tools) that are used in today’s technology.
-                </p>
-                <p style={{margin: '0 0 10px'}}>
-                On a personal level, I am highly-motivated, result oriented, self-driven, hard-working, fast learner and constantly seeking to improve my skills.
-                </p>
-                <p style={{margin: '0 0 10px'}}>
-                In addition to this, I have the ability to adapt to any type of team environment, I am team oriented and get along with others when working in a group setting. I also have the ability to work independently while staying on schedule and meeting those tight deadlines.
-                </p>
-                <p style={{margin: '0 0 10px'}}>
-                If you want to know more about my work expirience,<span style={{cursor: 'pointer'}} onClick={() => setModalVisible(true)}> click here.</span> 
-                </p>
-                Below is a list of my current technical skills:
+                    <C.Paragraph>I have about than two years of work experience in full-stack development and have a firm knowledge of HTML, CSS and JavaScript language and possess a good knowledge of computer software packages (frameworks and tools) that are used in today’s technology.</C.Paragraph>
+                    <C.Paragraph>On a personal level, I am highly-motivated, result oriented, self-driven, hard-working, fast learner and constantly seeking to improve my skills.</C.Paragraph>
+                    <C.Paragraph>In addition to this, I have the ability to adapt to any type of team environment, I am team oriented and get along with others when working in a group setting. I also have the ability to work independently while staying on schedule and meeting those tight deadlines.</C.Paragraph>
+                    <C.Paragraph>If you want to know more about my work expirience,<C.TextClickable style={{cursor: 'pointer'}} onClick={() => setModalVisible(true)}> click here.</C.TextClickable> </C.Paragraph>
+                    Below is a list of my current technical skills:
                 </C.TextAbout>
+    
                 <C.Tecnologies>
-                    
-                        <C.Tecnology>
-                            <img src={html} title="html" alt="html" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                        </C.Tecnology>
-                        <C.Tecnology>
-                            <img src={css} title="css" alt="css" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                        </C.Tecnology>
-                        <C.Tecnology>
-                            <img src={js} title="js" alt="js" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                        </C.Tecnology>
-                        <C.Tecnology>
-                            <img src={git} title="git" alt="git" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                        </C.Tecnology>
-                        <C.Tecnology>
-                            <img src={php} title="php" alt="php" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                        </C.Tecnology>
-                        <C.Tecnology>
-                            <img src={mysql} title="mysql" alt="mysql" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                        </C.Tecnology>
-                        <C.Tecnology>
-                            <img src={trello} title="trello" alt="trello" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                        </C.Tecnology>
-                        <C.Tecnology>
-                            <img src={java} title="java" alt="java" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                        </C.Tecnology>
-                        <C.Tecnology>
-                            <img src={bootstrap} title="bootstrap" alt="bootstrap" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                        </C.Tecnology>
-                        <C.Tecnology>
-                            <img src={react} title="react" alt="react" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                        </C.Tecnology>
-                        <C.Tecnology>
-                            <img src={laravel} title="laravel" alt="laravel" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                        </C.Tecnology>
-                        <C.Tecnology>
-                            <img src={scriptcase} title="scriptcase" alt="scriptcase" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                        </C.Tecnology>
-                        <C.Tecnology>
-                            <img src={corel} title="corel" alt="corel" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                        </C.Tecnology>
-                        <C.Tecnology>
-                            <img src={davinciresolve} title="davinciresolve" alt="davinciresolve" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
-                        </C.Tecnology>
-                    
+                    {skillsList.map(skill => {
+                        return (
+                            <C.Tecnology key={skill.id}>
+                                <C.TecnologyIcon src={skill.image} title={skill.title} alt={skill.title} />
+                            </C.Tecnology>
+                        )
+                    })}
                 </C.Tecnologies>
             </C.AboutMe>
             
@@ -97,7 +48,7 @@ function Body() {
             <C.ContainerProjects>
                 {projectList.map(project => {
                     return (
-                        <Project key={project.id} title={project.title} description={project.description} link={project.link} languages={project.tecnologies}></Project>
+                        <Project key={project.id} title={project.title} description={project.description} link={project.link} languages={project.tecnologies} image={project.image}></Project>
                     )
                 })}
                 {/* <Project title="Old Portfolio" description="That's my old portfolio made only with javascript, html and css" link="https://braiann.vercel.app/"></Project>

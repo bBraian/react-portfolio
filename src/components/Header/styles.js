@@ -35,9 +35,9 @@ export const Image = styled.div`
 export const Name = styled.span`
     color: ${props => props.theme.colors.text};
     font-size: 45px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     margin: 0 25px;
-    font-weight: 900;
+    font-weight: 700;
     
 
     @media(max-width: 800px) {

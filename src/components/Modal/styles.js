@@ -1,8 +1,11 @@
 import styled from "styled-components";
 
 export const Modal = styled.div`
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
     position: fixed;
     display flex;
+    flex-direction: column;
     z-index: 9999;
     top: 25%;
     border-radius: 15px;
@@ -19,9 +22,17 @@ export const Modal = styled.div`
         width: 80%;
         top: 10%;
         max-height: 70vh;
-        overflow: scroll;
+        overflow-y: scroll;
     }
-`
+`;
+
+export const Space = styled.div`
+    width: 100%;
+    // height: 60px;
+    @media(max-width: 800px) {
+        // height: 30px;
+    }
+`;
 
 export const Container = styled.div`
     z-index: 999;
