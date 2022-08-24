@@ -12,7 +12,7 @@ export const projects = [
             {id: 1, name: 'ReactJS', icon: react},
         ]
     },
-    {id: 2, title: 'IMC App', description: 'This project is a simple IMC calculator app made with React Native', image: imc, link: 'https://todo-react-list.vercel.app/', 
+    {id: 2, title: 'IMC App', description: 'This project is a simple IMC calculator app made with React Native', image: imc, link: 'https://play.google.com/store/apps/details?id=com.calculadora.IMC', 
         tecnologies: [
             {id: 3, name: 'ReactJS', icon: react},
         ]
