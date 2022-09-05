@@ -21,13 +21,11 @@ export const projects = [
     {id: 3, title: 'ReactFlix', description: 'A project made with react typescript using styled-components', image: reactflix, link: 'https://react-flix-bbraian.vercel.app/',  projectStatus: '',
         tecnologies: [
             {id: 1, name: 'ReactJS', icon: react},
-            {id: 2, name: 'NodeJS', icon: javascript},
         ]
     },
     {id: 4, title: 'Todo list', description: 'Todo is an react-app made with typescript. Is the convencional list of things to do. You can create, and mark as done', image: imc, link: 'https://todo-react-list.vercel.app/', projectStatus: '',
         tecnologies: [
-            {id: 3, name: 'PHP', icon: php},
-            {id: 4, name: 'MySQL', icon: mysql}
+            {id: 3, name: 'ReactJS', icon: react},
         ]
     },
 ];
