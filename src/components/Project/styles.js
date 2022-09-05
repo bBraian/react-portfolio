@@ -127,3 +127,16 @@ export const ProjectLink = styled.a`
     font-size: 16px;
     color: ${props => props.theme.colors.secundary}; 
 `;
+
+export const ProjectStatus = styled.div`
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #f8df00;
+    top: -12px;
+    right: -12px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;

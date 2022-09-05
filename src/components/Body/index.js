@@ -48,7 +48,7 @@ function Body() {
             <C.ContainerProjects>
                 {projectList.map(project => {
                     return (
-                        <Project key={project.id} title={project.title} description={project.description} link={project.link} languages={project.tecnologies} image={project.image}></Project>
+                        <Project key={project.id} title={project.title} description={project.description} link={project.link} languages={project.tecnologies} image={project.image} projectStatus={project.projectStatus}></Project>
                     )
                 })}
                 {/* <Project title="Old Portfolio" description="That's my old portfolio made only with javascript, html and css" link="https://braiann.vercel.app/"></Project>

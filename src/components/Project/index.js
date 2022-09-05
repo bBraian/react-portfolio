@@ -1,10 +1,12 @@
 import React from 'react';
 import * as C from './styles';
+import { TiWarningOutline } from 'react-icons/ti';
 
-function Project({title, description, link, languages, image}) {
+function Project({title, description, link, languages, image, projectStatus}) {
 
     return( 
         <C.Project>
+            { projectStatus === '' ? '' : <C.ProjectStatus title='This project is still under construction'><TiWarningOutline style={{width: '20px', height: '20px'}} /></C.ProjectStatus>}
             <C.BoxProjectImage>
                 <C.ProjectImage src={image} alt="123"></C.ProjectImage>
             </C.BoxProjectImage>
