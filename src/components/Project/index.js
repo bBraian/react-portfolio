@@ -27,7 +27,7 @@ function Project({title, description, link, languages, image, projectStatus}) {
                 </C.TecnologiesBox>
                 
                 <C.See>
-                    <C.ProjectLink rel="noreferrer" href={link} target="_blank">See Project</C.ProjectLink>
+                    { link === '' ? '' : <C.ProjectLink rel="noreferrer" href={link} target="_blank">See Project</C.ProjectLink>}
                 </C.See>
                     
             </C.Container>
